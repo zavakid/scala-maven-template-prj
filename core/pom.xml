@@ -46,6 +46,11 @@
             <artifactId>scala-library</artifactId>
         </dependency>
         <dependency>
+            <groupId>org.scala-lang</groupId>
+            <artifactId>scalap</artifactId>
+            <version>${scala.version}</version>
+        </dependency>
+        <dependency>
             <groupId>com.typesafe.slick</groupId>
             <artifactId>slick${scala.lib.suffix.version}</artifactId>
         </dependency>
